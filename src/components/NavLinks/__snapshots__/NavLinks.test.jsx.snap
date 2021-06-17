@@ -24,8 +24,8 @@ exports[`<NavLinks /> should render snapshot 1`] = `
 .c1::after {
   content: '';
   position: absolute;
-  bottom: 0.8rem;
-  left: 25%;
+  bottom: 0.76rem;
+  left: 50%;
   width: 0;
   height: 0.2rem;
   background: crimson;
@@ -50,6 +50,7 @@ exports[`<NavLinks /> should render snapshot 1`] = `
 }
 
 <nav
+  aria-label="Main menu"
   class="c0"
 >
   <a

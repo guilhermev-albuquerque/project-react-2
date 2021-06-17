@@ -12,8 +12,8 @@ export const Container = styled.a`
     &::after {
       content: '';
       position: absolute;
-      bottom: 0.8rem;
-      left: 25%;
+      bottom: 0.76rem;
+      left: 50%;
       width: 0;
       height: 0.2rem;
       background: ${theme.colors.secondaryColor};

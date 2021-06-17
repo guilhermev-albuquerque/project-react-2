@@ -1,113 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1623803153843" clover="3.2.0">
-  <project timestamp="1623803153843" name="All files">
-    <metrics statements="47" coveredstatements="47" conditionals="19" coveredconditionals="19" methods="23" coveredmethods="23" elements="89" coveredelements="89" complexity="0" loc="47" ncloc="47" packages="8" files="16" classes="16"/>
+<coverage generated="1623896903582" clover="3.2.0">
+  <project timestamp="1623896903582" name="All files">
+    <metrics statements="78" coveredstatements="78" conditionals="28" coveredconditionals="28" methods="38" coveredmethods="38" elements="144" coveredelements="144" complexity="0" loc="78" ncloc="78" packages="11" files="22" classes="22"/>
+    <package name="components.GridContent">
+      <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <file name="index.jsx" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/GridContent/index.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/GridContent/styles.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.GridTwoColumns">
+      <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <file name="index.jsx" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/GridTwoColumns/index.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/GridTwoColumns/styles.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="components.Heading">
       <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8"/>
       <file name="index.jsx" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/Heading/index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="11" count="13" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="11" count="21" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
       </file>
       <file name="styles.js" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/Heading/styles.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
-        <line num="13" count="7" type="stmt"/>
-        <line num="19" count="7" type="stmt"/>
-        <line num="25" count="13" type="stmt"/>
-        <line num="29" count="3" type="stmt"/>
-        <line num="30" count="13" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="25" count="21" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="21" type="stmt"/>
       </file>
     </package>
     <package name="components.LogoLink">
       <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/LogoLink/index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="5" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
       </file>
       <file name="styles.js" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/LogoLink/styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Menu">
+      <metrics statements="13" coveredstatements="13" conditionals="7" coveredconditionals="7" methods="7" coveredmethods="7"/>
+      <file name="index.jsx" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/Menu/index.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/Menu/styles.js">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="5" type="stmt"/>
       </file>
     </package>
     <package name="components.MenuLink">
       <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/MenuLink/index.jsx">
         <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="4" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="33" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="33" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
+        <line num="4" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="73" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="73" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
       </file>
       <file name="styles.js" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/MenuLink/styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="33" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="73" type="stmt"/>
       </file>
     </package>
     <package name="components.NavLinks">
       <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
       <file name="index.jsx" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/NavLinks/index.jsx">
         <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="9" count="30" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="5" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="9" count="70" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
       </file>
       <file name="styles.js" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/NavLinks/styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
       </file>
     </package>
     <package name="components.SectionBackground">
       <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <file name="index.jsx" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/SectionBackground/index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
       </file>
       <file name="styles.js" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/SectionBackground/styles.js">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
       </file>
     </package>
     <package name="components.SectionContainer">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/SectionContainer/index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
       </file>
       <file name="styles.js" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/SectionContainer/styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
       </file>
     </package>
     <package name="components.TextComponent">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/TextComponent/index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
       </file>
       <file name="styles.js" path="/home/guilherme/arquivos/PROJETOS/react/projeto2/src/components/TextComponent/styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
       </file>
     </package>
     <package name="templates.App">

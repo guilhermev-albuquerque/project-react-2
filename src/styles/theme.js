@@ -6,7 +6,7 @@ export const theme = {
   },
   font: {
     family: {
-      default: "'Open sans', sans-serif0",
+      default: "'Open sans', sans-serif",
       secondary: "'Montserrat', 'sans-serif'",
     },
     sizes: {
